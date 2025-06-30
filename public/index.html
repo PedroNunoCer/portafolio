@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Nuño Cervantes | Backend Developer</title>
+    <link rel="icon" type="image/x-icon" href="./img/terminal-solid.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="scrollToTop" class="scroll-to-top" title="Volver arriba"><i class="fa fa-solid fa-arrow-up" style="font-size:20px"></i></button>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="profile-pic">
+                <img src="./img/profile.jpg" alt="Pedro Nuño Cervantes" id="profile-image">
+            </div>
+            <h1 class="name">Pedro Nuño Cervantes</h1>
+            <h2 class="title">Backend Developer</h2>
+            <div class="social-links">
+                <a href="https://github.com/PedroNunoCer" target="_blank">
+                    <i class="fa fa-github" style="font-size:36px"></i>
+                </a>
+                <a href="https://linkedin.com/in/pedro-nuño-cervantes-sistemas" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size:24px"></i>
+                </a>
+                <a href="Pedro-Nuno-Cervantes-CV.pdf" download class="download-cv">
+                    <i class="fa fa-solid fa-file" style="font-size:24px"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-content">
+            <p>
+                Ingeniero en Sistemas Computacionales con experiencia en soporte técnico en redes y telecomunicaciones. 
+                Mi enfoque profesional está dirigido al desarrollo backend, donde aprovecho mi mentalidad analítica y 
+                habilidades de resolución de problemas para crear soluciones robustas. Mi experiencia en infraestructura 
+                de red y monitoreo de sistemas me brinda una comprensión integral de cómo los sistemas backend interactúan 
+                con la infraestructura tecnológica general.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <p class="skills-subtitle"></p>
+        
+        <div class="skills-tabs">
+            <div class="skills-tab active" data-tab="frontend">{ } Desarrollo Frontend</div>
+            <div class="skills-tab" data-tab="backend">[ ] Backend & Terminal</div>
+        </div>
+        
+        <div class="skills-content active" id="frontend-skills">
+            <div class="skills-grid">
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    </div>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-content" id="backend-skills">
+            <div class="skills-grid">
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    </div>
+                    <h3>Java</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                    </div>
+                    <h3>SQL</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                    </div>
+                    <h3>Linux</h3>
+                </div>
+                
+                <div class="skill-icon-item">
+                    <div class="skill-icon-circle">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    </div>
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="container">
+        <h2 class="section-title">Experiencia Profesional</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Febrero 2025 - Abril 2025</div>
+                    <h3 class="timeline-title">Desarrollador Web - Lácteos y Derivados Belén</h3>
+                    <div class="timeline-description">
+                        <p>Desarrollo de un e-commerce moderno orientado principalmente al backend:</p>
+                        <ul>
+                            <li>Diseño e implementación de arquitectura de base de datos para gestión de inventario</li>
+                            <li>Creación de APIs RESTful para listado de productos, autenticación de usuarios y procesamiento de pedidos</li>
+                            <li>Implementación de integraciones de procesamiento de pagos seguros</li>
+                            <li>Establecimiento de procesos eficientes de manejo de datos para optimizar el rendimiento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Marzo 2023 - Enero 2025</div>
+                    <h3 class="timeline-title">Ingeniero TAC/NOC N1 - ASSETEL</h3>
+                    <div class="timeline-description">
+                        <p>Responsable de monitorear, diagnosticar y resolver incidencias en redes y sistemas de telecomunicaciones:</p>
+                        <ul>
+                            <li>Monitoreo en tiempo real de redes, servidores, máquinas virtuales y firewalls</li>
+                            <li>Diagnóstico y resolución del 98% de incidencias de conectividad y rendimiento</li>
+                            <li>Gestión de tickets de soporte cumpliendo SLA al 98% de las ocasiones</li>
+                            <li>Adquisición de amplio conocimiento en infraestructura backend y arquitectura de sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Noviembre 2020 - Enero 2021</div>
+                    <h3 class="timeline-title">Agente Bilingüe - Teleperformance</h3>
+                    <div class="timeline-description">
+                        <p>Soporte técnico y asistencia de facturación a clientes:</p>
+                        <ul>
+                            <li>Atención de llamadas, correos y chats relacionados con problemas técnicos</li>
+                            <li>Diagnóstico y solución de incidencias básicas de conectividad y servicio</li>
+                            <li>Comunicación efectiva bilingüe (inglés/español) con clientes sobre temas técnicos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./img/logo.png" alt="E-commerce NinjaShop">
+                </div>
+                <div class="project-content">
+                    <h2 class="project-title">Sistema de E-commerce para NinjaShop</h2>
+                    <p>Sistema de comercio electrónico. Con gestión de inventario, procesamiento de pedidos.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">SQL</span>
+                        <span class="project-tag">APIs</span>
+                        <span class="project-tag">Backend</span>
+                    </div>
+                    <a href="https://ninjasports.netlify.app/" class="project-button" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./img/LOGO DE FACEBOOK.png" alt="E-commerce Lácteos Belén">
+                </div>
+                <div class="project-content">
+                    <h2 class="project-title">Sistema de E-commerce para Lácteos Belén</h2>
+                    <p>Sistema de comercio electrónico con enfoque en backend. Incluye gestión de inventario, procesamiento de pedidos.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Java</span>
+                        <span class="project-tag">SQL</span>
+                        <span class="project-tag">APIs</span>
+                        <span class="project-tag">Backend</span>
+                    </div>
+                    <a href="https://github.com/Adair-Gmz/lacteosBelen" class="project-button" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./img/Jericallas.png" alt="Jericallas Nuño">
+                </div>
+                <div class="project-content">
+                    <h2 class="project-title">Landing page - Jericallas Nuño</h2>
+                    <p>Desarrollo de sitio web responsivo para visualización de catálogo de productos y formulario de contacto.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">HTML/CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">Backend</span>
+                    </div>
+                    <a href="https://jericallasnuno.netlify.app/" class="project-button" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="container">
+        <h2 class="section-title">Educación</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <div class="education-date">Enero 2025 - Abril 2025</div>
+                <h3 class="education-title">Bootcamp Full Stack Java Developer - Generation Mexico</h3>
+                <p>Programa intensivo de desarrollo con enfoque en tecnologías Java backend y desarrollo web.</p>
+            </div>
+            
+            <div class="education-item">
+                <div class="education-date">Agosto 2023 - Abril 2024</div>
+                <h3 class="education-title">Mtr. en Dirección de Proyectos - Universidad Tecnológica de México</h3>
+                <p>Especialización en gestión de proyectos tecnológicos, metodologías ágiles y dirección de equipos.</p>
+            </div>
+            
+            <div class="education-item">
+                <div class="education-date">Agosto 2020 - Agosto 2023</div>
+                <h3 class="education-title">Lic. en Ingeniería en Sistemas Computacionales - Universidad Tecnológica de México</h3>
+                <p>Formación en programación, diseño de sistemas, redes y administración de bases de datos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa fa-solid fa-envelope" style="font-size:36px"></i></div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>cervantesnunopedro@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa fa-solid fa-phone" style="font-size:36px"></i></div>
+                    <div>
+                        <h3>Teléfono</h3>
+                        <p>+52 3323676337</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa fa-linkedin" style="font-size:36px"></i></div>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://linkedin.com/in/pedro-nuño-cervantes-sistemas" target="_blank">pedro-nuño-cervantes-sistemas</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa fa-github" style="font-size:36px"></i></div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p><a href="https://github.com/PedroNunoCer" target="_blank">PedroNunoCer</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <form action="https://formspree.io/f/mkgjjnrq" method="POST">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="_replyto" placeholder="Email" required>
+                <textarea placeholder="Mensaje" name="message" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pedro Nuño Cervantes. Backend Developer.</p>
+        </div>
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

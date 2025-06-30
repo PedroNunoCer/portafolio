@@ -24,17 +24,21 @@ Este es un portafolio web moderno y responsivo que presenta mis habilidades, exp
 
 ```
 portafolio/
-├── index.html              # Página principal
-├── styles.css              # Estilos CSS
-├── script.js               # Funcionalidad JavaScript
+├── public/                 # Directorio de archivos públicos (Vercel)
+│   ├── index.html          # Página principal
+│   ├── styles.css          # Estilos CSS
+│   ├── script.js           # Funcionalidad JavaScript
+│   ├── Pedro-Nuno-Cervantes-CV.pdf
+│   └── img/                # Imágenes y recursos
+│       ├── profile.jpg
+│       ├── logo.png
+│       ├── Jericallas.png
+│       └── ...
 ├── package.json            # Configuración del proyecto
+├── vercel.json            # Configuración de Vercel
 ├── README.md               # Documentación
-├── img/                    # Imágenes y recursos
-│   ├── profile.jpg
-│   ├── logo.png
-│   ├── Jericallas.png
-│   └── ...
-└── Pedro-Nuno-Cervantes-CV.pdf
+├── DEPLOYMENT.md           # Guía de despliegue
+└── .gitignore             # Archivos excluidos de Git
 ```
 
 ## 🎨 Características

@@ -40,4 +40,11 @@ dist/
 build/
 
 # Vercel
-.vercel 
+.vercel
+
+# Ignore root files (keep only in public/ directory)
+/index.html
+/styles.css
+/script.js
+/img/
+/Pedro-Nuno-Cervantes-CV.pdf 
