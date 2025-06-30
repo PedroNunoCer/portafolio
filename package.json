@@ -1,0 +1,24 @@
+{
+  "name": "pedro-nuno-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio profesional de Pedro Nuño Cervantes - Backend Developer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "backend",
+    "developer",
+    "java",
+    "python",
+    "sql"
+  ],
+  "author": "Pedro Nuño Cervantes",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+} 
